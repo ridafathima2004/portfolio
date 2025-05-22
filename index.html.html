@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57330d40ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo-section">
+            <h1 class="logo">
+                <span class="red-letter">R</span>ida <span class="red-letter">F</span>athima
+            </h1>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>R</span>ida <span>F</span>athima<br> from kerala</h1>
+            </div></div>
+            <nav>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+        <!--------about------------------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="imagesme/me again.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab(event,'skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab(event,'experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+                        </div> 
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span></strong>Web Development Skills</strong></span>
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                    </li>
+                            
+                                    <li><span><strong>Creative & Craft Skills</strong></span>
+                                        <ul>
+                                            <li>Bead Jewelry Making</li>
+                                            <li>Mehndi Designing</li>
+                                            <li>Writing</li>
+                                            <li>Digital Art</li>
+                                            <li>Handmade Gifts / DIY Crafts</li>
+                                        </ul>
+                                    </li>
+                            
+                                    <li><span><strong>Soft Skills</strong></span>
+                                        <ul>
+                                            <li>Time Management</li>
+                                            <li>Creativity</li>
+                                            <li>Presentation Skills</li>
+                                            <li>Team Collaboration</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span><strong>Personal Projects</strong></span>  Built a personal website using HTML, CSS, and JavaScript</li>
+                                <li><span><strong>Jewelry Business</strong></span>  Created and sold handmade bead jewelry and resin art</li>
+                                <li><span><strong>Event Mehndi Artist</strong></span>  Applied mehndi for special occasions and weddings</li>
+                                <li><span><strong>School/College Events</strong></span>  Designed presentations and collaborated with teams</li>
+                                <li><span><strong>Creative Writing</strong></span>  Wrote short stories and poems as a hobby</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span><strong>Bachelor of Computer Applications (BCA)</strong></span><br>
+                                    Noble Women's College, Manjeri<br>
+                                    3rd Year (Current)
+                                </li>
+                                <li><span><strong>Higher Secondary Education (12th Grade)</strong></span><br>
+                                    Government Girls Higher Secondary School (GGHSS), Malappuram
+                                </li>
+                                <li><span><strong>Secondary Education (10th Grade)</strong></span><br>
+                                    Government Girls Higher Secondary School (GGHSS), Malappuram
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-------services----->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript as part of an academic project.
+
+                        Focused on responsive layout, navigation structure, and user-friendly design.
+                        
+                        Created sections for About Me, Services, Portfolio, and Contact.
+                        
+                        Customized styling with CSS and added interactivity with JavaScript.
+                        
+                        </p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos eveniet quis dolore iure 
+                        tempore deleniti accusantium fuga cum, labore, delectus, quibusdam alias. Sit ex, consequatur dicta 
+                        consequuntur temporibus commodi!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo suscipit, sunt nesciunt
+                         sit dignissimos molestias sapiente laudantium. Possimus facere maiores exercitationem ratione? Provident
+                          similique, explicabo unde molestiae id eveniet.</p>
+                        <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+        <!-------potfolio---------->
+           <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.jpg">
+                        <div class="layer">
+                            <h3>Web Design</h3>
+                            <p>   
+                                 Designed and developed a personal portfolio website using HTML, CSS, and JavaScript
+                                 as part of my academic project. Focused on responsive layout, user-friendly navigation,
+                                 and clean visual design.
+                                
+                                </p>
+                                 <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-2.jpg">
+                        <div class="layer">
+                            <h3>Resin Jewelry Business Site (Coming Soon)</h3>
+                               <p> Currently working on a mockup website for my upcoming resin jewelry brand.
+                                 Focus on aesthetic design, product galleries, and smooth user experience.</p>
+                                 <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work-3.jpg">
+                        <div class="layer">
+                            <h3>Jewelry Making</h3>
+                            <p>Handcrafted unique jewelry pieces using beads, crystals, and resin art. Focused on customized designs, color themes, and high-quality materials. 
+                               Ideal for gifts, personal collections, or small-scale sales. Each piece reflects creativity and attention to detail.</p>
+                        
+                                 <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+
+           </div> 
+           <!---------contact------------>
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>ridaridu2004@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8590724317</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                            <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <a href="imagesme/Rida_Fathima_CV.docx" download class="btn btn2">Download CV </a>
+
+                    </div>
+                    <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required> 
+                            <input type="email" name="Email" placeholder="Your Email"required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+           <div class="copyright">
+            <p> All images used are either owned by me or believed to be in the public domain. 
+                If you own the rights to any image and do not wish them to appear here, please contact me and I will remove them immediately.</p>
+           </div>
+           </div>
+          
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");  
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(evt,tabname){
+            for(let tablink of tablinks){
+                tablink.classList.remove("active-links")
+            }
+            for(let tabcontent of tabcontents){    
+                tabcontent.classList.remove("active-tab")
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+        evt.currentTarget.classList.add("active-links");
+        }
+    </script>
+    
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        
+    }
+    </script>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbyyPLNEixFRoZYqT8jTfwqGsflMLKTclvH0OszedvdhMWAwn27FqyLg5HaldkDA-jrKVQ/exec";
+        const form = document.forms['submit-to-google-sheet'];
+      const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+      
+          fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+      </script>
+</body>
+</html>
